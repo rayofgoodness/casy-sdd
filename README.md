@@ -7,7 +7,7 @@ Spec-driven development як Claude Code плагін. Оркестратор + 
 Репо саме є маркетплейсом (`.claude-plugin/marketplace.json`). У Claude Code:
 
 ```
-/plugin marketplace add rayofgoodness/casy-sdd
+/plugin marketplace add https://github.com/rayofgoodness/casy-sdd
 /plugin install casy-sdd@casy-sdd
 ```
 
