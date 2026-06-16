@@ -1,0 +1,6 @@
+.DS_Store
+*.log
+node_modules/
+
+# per-project config that the plugin auto-creates in CONSUMER repos (not this one)
+.casy-sdd.local.md

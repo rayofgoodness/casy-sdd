@@ -1,0 +1,18 @@
+{
+  "description": "casy-sdd: ненавʼязливе нагадування тримати spec/plan/tasks у синхроні після правок SDD-артефактів",
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Write|Edit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash",
+            "args": ["${CLAUDE_PLUGIN_ROOT}/scripts/sdd-state-reminder.sh"],
+            "timeout": 10
+          }
+        ]
+      }
+    ]
+  }
+}

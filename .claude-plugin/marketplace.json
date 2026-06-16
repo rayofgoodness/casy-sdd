@@ -1,0 +1,17 @@
+{
+  "name": "casy-sdd",
+  "description": "Casy SDD — spec-driven development for Claude Code: gated spec → plan → tasks → implement → validate pipeline with sequential, parallel agent-team, and interactive debug modes. Casy-opinionated (Knex, no ORM).",
+  "owner": {
+    "name": "Bohdan"
+  },
+  "plugins": [
+    {
+      "name": "casy-sdd",
+      "source": "./",
+      "version": "1.3.0",
+      "description": "Spec-driven development pipeline: sequential orchestrator OR parallel agent-team lead coordinate specifier -> architect -> task-splitter -> implementer (backend/frontend) -> validator over specs/<feature>/{spec,plan,tasks}.md state files. Plus an interactive code-debug mode (investigate -> interview -> fix). Casy-opinionated (Knex, no ORM).",
+      "category": "workflow",
+      "tags": ["sdd", "spec-driven-development", "orchestrator", "agent-teams", "debugging", "tdd"]
+    }
+  ]
+}
