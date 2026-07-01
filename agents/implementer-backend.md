@@ -2,7 +2,7 @@
 name: sdd-implementer-backend
 description: Реалізує ОДНУ backend-задачу з tasks.md за планом — пише код, міграції, тести. Стек Casy backend (Knex, no ORM). Веде статус задачі. Делегуй сюди для задач типу [backend].
 tools: Read, Glob, Grep, Edit, Write, Bash
-model: inherit
+model: claude-opus-4-8
 effort: medium
 ---
 

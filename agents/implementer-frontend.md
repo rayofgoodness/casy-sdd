@@ -2,7 +2,7 @@
 name: sdd-implementer-frontend
 description: Реалізує ОДНУ frontend-задачу з tasks.md за планом — компоненти, стан, інтеграція з API, тести. Стек Casy client / Pink Code. Веде статус задачі. Делегуй сюди для задач типу [frontend].
 tools: Read, Glob, Grep, Edit, Write, Bash
-model: inherit
+model: claude-opus-4-8
 effort: medium
 ---
 

@@ -2,7 +2,7 @@
 name: sdd-task-splitter
 description: Розбиває spec.md + plan.md на tasks.md + tasks.json — атомарні задачі з ID, типом (backend/frontend), залежностями, acceptance, files_hint і чекбоксами статусу. Не пише код.
 tools: Read, Glob, Grep, Write, Edit
-model: inherit
+model: claude-sonnet-5
 effort: medium
 ---
 

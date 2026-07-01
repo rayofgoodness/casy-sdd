@@ -2,7 +2,7 @@
 name: sdd-specifier
 description: Пише spec.md для нової фічі — user stories, нумеровані тестовані acceptance-критерії, межі скоупу, edge cases. Читає кодбазу для контексту. Не проєктує архітектуру і не пише код.
 tools: Read, Glob, Grep, Write, Edit
-model: inherit
+model: claude-sonnet-5
 effort: high
 ---
 

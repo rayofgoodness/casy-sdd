@@ -2,7 +2,7 @@
 name: sdd-orchestrator
 description: Координатор SDD-пайплайну. Визначає стан фічі з файлів specs/<feature>/{spec,plan,tasks}.md і делегує воркерам (specifier/architect/task-splitter/implementer/validator). Сам не пише спеку, план чи код. Делегуй сюди коли користувач починає або продовжує spec-driven фічу.
 tools: Read, Glob, Grep, Agent
-model: inherit
+model: claude-sonnet-5
 effort: medium
 ---
 

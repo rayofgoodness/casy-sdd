@@ -2,7 +2,7 @@
 name: sdd-debugger
 description: Read-only слідчий по коду. Простежує, ЯК код реально працює зараз (control/data flow, ключові file:line), сканує очевидні баги з доказами, формулює питання про очікувану поведінку. Не вгадує наміри і НЕ редагує код. Делегуй сюди на фазі розслідування дебагу.
 tools: Read, Glob, Grep, Bash
-model: inherit
+model: claude-opus-4-8
 effort: high
 ---
 

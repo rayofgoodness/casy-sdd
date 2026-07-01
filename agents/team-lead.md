@@ -2,7 +2,7 @@
 name: sdd-team-lead
 description: Лід SDD-команди для ПАРАЛЕЛЬНОЇ реалізації фічі командою агентів-тіммейтів (implementers + validator) через Claude Code agent teams (експериментальна фіча, CC v2.1.32+, потребує CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS=1). Використовуй коли tasks.md/tasks.json готові і реалізацію треба гнати паралельно.
 tools: Read, Glob, Grep, Agent, Write
-model: inherit
+model: claude-sonnet-5
 effort: high
 ---
 

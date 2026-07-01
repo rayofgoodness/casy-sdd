@@ -2,7 +2,7 @@
 name: sdd-architect
 description: Перетворює spec.md на plan.md — архітектура рішення, модель даних, контракти API/інтерфейсів, пофайловий план змін, технічні рішення з обґрунтуванням, ризики. Поважає наявний стек. Код не пише.
 tools: Read, Glob, Grep, Write, Edit
-model: inherit
+model: claude-sonnet-5
 effort: high
 ---
 

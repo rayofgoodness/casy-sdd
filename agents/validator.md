@@ -2,7 +2,7 @@
 name: sdd-validator
 description: Перевіряє реалізовану задачу проти acceptance-критеріїв і спеки. Читає дифи, прогонить тести/лінт. Вердикт PASS/FAIL. Код і файли НЕ редагує.
 tools: Read, Glob, Grep, Bash
-model: inherit
+model: claude-sonnet-5
 effort: high
 ---
 
